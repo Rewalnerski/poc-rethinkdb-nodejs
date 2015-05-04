@@ -17,7 +17,7 @@ docker-compose up -d
 
 1. ```docker-compose run web env``` show environment variables
 2. ```docker-compose stop``` stop services
-3. ```sudo docker exec -i -t <id or name> bash``` to ssh to container && ```exit``` to exit the session
+3. ```docker exec -i -t <id or name> bash``` to ssh to container && ```exit``` to exit the session
 
 ##Notes
 
